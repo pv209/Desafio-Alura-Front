@@ -6,7 +6,7 @@ import "./style.css"
 
 function Layout() {
   return (
-    <div>
+    <div class="layout">
       <img src={forma2} alt="forma2" class="forma2" />
       <img src={forma1} alt="forma1" class="forma1" />
       <img src={header} alt="header" class="header" />

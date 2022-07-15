@@ -7,7 +7,7 @@ function Cadastro() {
     <div class="main-cadastro">
       <Layout />
       <img src={logo} alt="logo" class="logo" />
-      <p class="texto">
+      <p class="texto-cadastro">
         Ainda não tem cadastro?
         <br /> Então, antes de buscar seu melhor amigo, precisamos de <br />{" "}
         alguns dados:

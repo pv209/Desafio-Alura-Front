@@ -6,7 +6,7 @@ import Layout from "../Components/LayoutBasico.jsx/Layout";
 
 function Home() {
   return (
-    <div class="main">
+    <div class="home">
       <Layout/>
       <img src={logo} alt="logo" class="logoadopet" />
       <img src={ilu} alt="ilu" class="ilu" />
