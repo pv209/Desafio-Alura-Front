@@ -31,12 +31,13 @@ body {
   position: absolute;
   width: 552px;
   height: 40px;
-  top: 70px;
+  top: 90px;
+  border: none;
 
   background: #f7f7f7;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
-  border-radius: 6px;
+  
   z-index: 1;
+  color: #bcbcbc;
 }
 
 .lbl-nome {
@@ -45,6 +46,8 @@ body {
   position: absolute;
   width: 55px;
   height: 24px;
+  left: 242px;
+  top: 50px;
 
   font-family: "Poppins";
   font-style: normal;
@@ -85,4 +88,41 @@ form {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.lbl-email {
+  position: absolute;
+  width: 68px;
+  height: 25px;
+  left: 242px;
+  top: 170px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Cinza */
+
+  color: #737380;
+}
+
+.inpt-email {
+  position: absolute;
+  width: 552px;
+  height: 40px;
+  top: 210px;
+  border: none;
+
+  background: #f7f7f7;
+
+  z-index: 99;
+
+  color: #bcbcbc;
 }

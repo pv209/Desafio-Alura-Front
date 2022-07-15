@@ -13,15 +13,19 @@ function Cadastro() {
         alguns dados:
       </p>
       <form>
-        <label class="lbl-nome">
+        <label class="lbl-nome" htmlFor="nome">
           Nome
-          <input
-            type="text"
-            name="nome"
-            class="inpt-nome"
-            placeholder="Digite seu nome completo"
-          />
         </label>
+        <input
+          type="text"
+          name="nome"
+          class="inpt-nome"
+          placeholder="Digite seu nome completo"
+        />
+        <label class="lbl-email" htmlFor="email">
+          Email
+        </label>
+        <input type="text" name="email" class="inpt-email" placeholder="Digite seu melhor email" />
       </form>
     </div>
   );
