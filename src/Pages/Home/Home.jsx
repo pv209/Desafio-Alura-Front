@@ -4,6 +4,7 @@ import forma2 from "../../Imagens/Forma 2.png";
 import header from "../../Imagens/Header.png";
 import forma1 from "../../Imagens/Forma 1.svg";
 import ilu from "../../Imagens/ilu.png";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 function Home() {
   return (
@@ -20,9 +21,15 @@ function Home() {
           Vem com a gente!
         </p>
       </div>
-      <div class="btns" >
-          <button class="btn-login"><h4 class="login">Ja tenho conta</h4></button>
-          <button class="btn-cadastro"><h4 class="cadastro">Quero me cadastrar</h4></button>
+      <div class="btns">
+        <button class="btn-login">
+          <h4 class="login">Ja tenho conta</h4>
+        </button>
+        <Link to="/cadastro">
+          <button class="btn-cadastro">
+            <h4 class="cadastro">Quero me cadastrar</h4>
+          </button>
+        </Link>
       </div>
     </div>
   );
